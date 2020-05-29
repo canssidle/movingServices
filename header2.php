@@ -25,12 +25,7 @@ session_start();
 </ul>
 
 <div class="header-login">
-<from action= "includes/login.inc.php" method ="post">
-<input type = "text" name = "mailuid" placeholder= 'E-mail/Username'>
-<input type = "password" name="pwd" placeholder="Password">
-<button class="button" type="submit" name= "login-submit"><span>login </span></button>
-</form>
-<a href = "signup.php" class="header-signup">Signup</a>
+
 <form action="includes/logout.inc.php" method="post">
 <button class="button" type="submit" name="logout-submit"><span>logout </span></button>
 </form>

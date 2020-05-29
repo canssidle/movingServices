@@ -1,3 +1,12 @@
+<head>
+      
+      <link rel="stylesheet" href="static/css/base.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Frijole|Rakkas&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>MOVING SERVICES</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
 
 <footer class="footer-distributed">
 
@@ -45,7 +54,7 @@
 
 				<p class="footer-company-about">
 					<span>About the company</span>
-					Web Dev Trick is a blog for web designers, graphic designers, web developers &amp; SEO Learner.
+					Moving Services aims at giving our customers the best services and a smooth journey as they relocate to new locations. &amp; SEO Learner.
 				</p>
 
 				<div class="footer-icons">
@@ -62,7 +71,9 @@
 footer{
 	
 	bottom: 0;
+	
 }
+
 .footer-distributed{
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);

@@ -1,19 +1,33 @@
+<?php
+
+require "header.php";
+?>
+ <head>
+      
+      <link rel="stylesheet" href="static/css/base.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Frijole|Rakkas&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>MOVING SERVICES</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
+
 <div class="about-section">
   <h1>About Us Page</h1>
-  <p>Some text about who we are and what we do.</p>
-  <p>Resize the browser window to see that this page is responsive by the way.</p>
+  <p>Learn more about us.</p>
+  <p>Our customers come first</p>
 </div>
 
 <h2 style="text-align:center">Our Team</h2>
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <img src="static/css/img/avatar2.jpeg" alt="Jane" style="width:100%">
       <div class="container">
-        <h2>Jane Doe</h2>
+        <h2>Canssidle Wairimu</h2>
         <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
+        <p>I started this company in 2020 to ease the reocation process.</p>
+        <p>canssidle@gmail.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
@@ -21,12 +35,12 @@
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+      <img src="static/css/img/avatar3.png" alt="Mike" style="width:100%">
       <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
+        <h2>Jayden Kagiri</h2>
+        <p class="title">Director</p>
+        <p>I manage the companies that are signed under Moving Services .</p>
+        <p>jayden@gmail.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
@@ -34,21 +48,26 @@
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+      <img src="static/css/img/avatar2.jpeg" alt="John" style="width:100%">
       <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
+        <h2>Kyler Wanja</h2>
+        <p class="title">Assistant</p>
+        <p>I make sure everthing works smoothly in the company and make sure everthing works im favour of our customers.</p>
+        <p>kyler@gmail.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
 </div>
 <style>
+ img {
+  max-width: 80px;
+  max-height: 80px;
+}
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Rakkas;
+  font-size:20px;
   margin: 0;
 }
 
@@ -93,16 +112,10 @@ html {
   color: grey;
 }
 
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
+
+.about-section{
+  background-image:url("https://images.pexels.com/photos/439741/pexels-photo-439741.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500;");
+  background-size: 100%;
 }
 
 .button:hover {
@@ -116,3 +129,7 @@ html {
   }
 }
 </style>
+<?php
+require "footer.php";
+
+?>

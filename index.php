@@ -43,95 +43,91 @@ else{
     <h1 class="ml16">MOVING SERVICES</h1>
  
   </div>
+  <div class="font">
   <div class="row">
   <div class="column">
     <div class="card">
-      <h3>Today Movers</h3>
-      <p>We offer both local and international services</p>
-      <p>We offer packing services</p>
-      <p>We have a crew of seven people to help out</p>
-      <p> Our rate is 200 per km</p>
+      <h3 class="service">  Let's Move Kenya</h3>
+      
     </div>
   </div>
 
   <div class="column">
-    <div class="card">
-    <h3>Today Movers</h3>
-      <p>We offer both local and international services</p>
+    <div class="cardr">
+    <h3>Services</h3>
+      <p>We offer only local services ie within Kenya </p>
       <p>We offer packing services</p>
       <p>We have a crew of seven people to help out</p>
-      <p> Our rate is 200 per km</p>
+      <p> We do all types of relocations ie offices, businesses,housing</p>
+      <e>All are inclusive</e>
     </div>
   </div>
   
   <div class="column">
-    <div class="card">
-    <h3>Today Movers</h3>
-      <p>We offer both local and international services</p>
-      <p>We offer packing services</p>
-      <p>We have a crew of seven people to help out</p>
-      <p> Our rate is 200 per km</p>
+    <div class="cardr">
+    <h3>Our rate</h3>
+     
+      <p class="rate"> Our rate is 150 per km</p>
     </div>
   </div>
   </div>
    
-   ------------------------------------------------------------------
+   <!-- ------------------------------------------------------------------ -->
    <div class="row">
   <div class="column">
-    <div class="card">
-      <h3>Today Movers</h3>
-      <p>We offer both local and international services</p>
-      <p>We offer packing services</p>
-      <p>We have a crew of seven people to help out</p>
-      <p> Our rate is 200 per km</p>
+    <div class="cardb">
+      <h3 class="service">Hama Services</h3>
+      
     </div>
   </div>
 
   <div class="column">
-    <div class="card">
-    <h3>Today Movers</h3>
+    <div class="cardr">
+    <h3>Services</h3>
       <p>We offer both local and international services</p>
       <p>We offer packing services</p>
-      <p>We have a crew of seven people to help out</p>
-      <p> Our rate is 200 per km</p>
+      <p>We only offer housing relocations </p>
+      <p>We have a crew of ten people to help out</p>
+      <p> All are inclusive</p>
     </div>
   </div>
   
   <div class="column">
-    <div class="card">
-    <h3>Today Movers</h3>
-      <p>We offer both local and international services</p>
-      <p>We offer packing services</p>
-      <p>We have a crew of seven people to help out</p>
+    <div class="cardr">
+    <h3>Our rate</h3>
       <p> Our rate is 200 per km</p>
     </div>
   </div>
   </div>
-   -----------------------------------------------------------------------------
+   <!-- ----------------------------------------------------------------------------- -->
    <div class="row">
   <div class="column">
-    <div class="card">
-      <h3>Today Movers</h3>
+    <div class="cardc">
+      <h3  class="service">Today Movers</h3>
     
     </div>
   </div>
 
   <div class="column">
-    <div class="card">
+    <div class="cardr">
     <h3>SERVICES</h3>
       <p>We offer both local and international services</p>
       <p>We offer packing services</p>
-      <p>We have a crew of seven people to help out</p>
-      
+      <p>We also do unpacking on arrival</p>
+      <p>We have a crew of fifteen people to help out two of them being security guys from G4S</p>
+      <p> We offer all types of relocations </p>
+      <p>All are inclusive</p>
     </div>
   </div>
   
   <div class="column">
-    <div class="card">
-    <h3>Rates</h3>
-      
-      <p> Our rate is 200 per km</p>
+    <div class="cardr">
+    
+      <h3 class="service">Our Rate</h3>
+      <p> Our rate is 250 per km</p>
+    
     </div>
+  </div>
   </div>
   </div>
    
@@ -140,6 +136,13 @@ else{
 <style>
 
     /* Container holding the image and the text */
+    .font{
+      font-family: Rakkas;
+      font-size:18px;
+    }
+    .service{
+      padding-top:100px;
+    }
     .ml16 {
   
     padding: 40px 0;
@@ -153,11 +156,18 @@ else{
     left: 50%;
     transform: translate(-50%, -50%);
   }
+.cardr{
+  background-color:rgb(41,44,47);
+  color:white;
+  height:300px;
+  text-align:center;
+}
 
   .v {
     position: relative;
     text-align: center;
     color:white;
+
    
     
     width:  100%;
@@ -218,6 +228,24 @@ body {
   background-image:url("https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   color: black;
   height:300px;
+}
+.cardc {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 0px;
+  text-align: center;
+  background-image:url("https://images.pexels.com/photos/1003868/pexels-photo-1003868.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+");
+  color: black;
+  height:300px;
+}
+.cardb {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 0px;
+  text-align: center;
+  background-image:url("https://images.pexels.com/photos/2519392/pexels-photo-2519392.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  color: black;
+  height:300px;
+  
 }
 
   </style>
