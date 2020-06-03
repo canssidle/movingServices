@@ -1,21 +1,17 @@
-<?php
-
-require "header2.php";
-?>
 
 <main>
 <section class="section-default">
 <?php
 
-if(isset($_SESSION['userId'])){
-    echo'<p class="login-status">You are logged in!</p>';
-
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
 }
-else{
-    echo '<p class="login-status>You are logged out!</p>';
-}
-
-
+require "header2.php";
 ?>
     </section>
 
@@ -27,6 +23,7 @@ else{
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon"  href="https://www.shareicon.net/data/256x256/2016/01/04/231545_home_256x256.png"/>
     <link rel="stylesheet" href="static/css/styles2.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Frijole|Rakkas&display=swap" rel="stylesheet">
     <meta charset="utf-8">

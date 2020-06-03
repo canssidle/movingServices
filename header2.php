@@ -1,6 +1,6 @@
-<?php
+<!-- <?php
 session_start();
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -26,8 +26,8 @@ session_start();
 
 <div class="header-login">
 
-<form action="includes/logout.inc.php" method="post">
-<button class="button" type="submit" name="logout-submit"><span>logout </span></button>
+<form action="logout.php" method="post">
+<a href="logout.php"> <button class="button" type="submit" ><span>logout </span></button></a>
 </form>
 </div>
 </nav>
